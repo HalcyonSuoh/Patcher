@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - "**"
-  pull_request:
+  workflow_dispatch:
 
 concurrency:
   # Maximum of one running workflow per pull request source branch
